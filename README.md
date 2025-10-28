@@ -62,33 +62,6 @@ This ensures vivid colors for rendering or visualization purposes.
 
 ---
 
-## 🧪 Example Usage
-
-```cpp
-#include "sampling.h"
-#include <iostream>
-
-int main() {
-    SamplingOptions::use_random_device();
-
-    Point p = rand_in_ball();
-    Color c = rand_bright_color();
-
-    std::cout << "Random point: " << p << std::endl;
-    std::cout << "Random color: " << c << std::endl;
-
-    return 0;
-}
-```
-
-Compile and run:
-```bash
-g++ -std=c++17 main.cpp sampling.cpp -o sampling
-./sampling
-```
-
----
-
 ## 📊 Concepts Illustrated
 
 | Concept | Description |
